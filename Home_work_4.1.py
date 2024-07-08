@@ -11,4 +11,4 @@ def total_selery (way_to_file):
             return (total_selery,average_selery)
     except FileNotFoundError:
             return ()
-print(total_selery   ("Заробітні плати.txt"))
+print(total_selery("Заробітні плати.txt"))

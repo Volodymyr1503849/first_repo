@@ -9,4 +9,4 @@ def get_cats_info(way_to_file):
        return list_of_cats
     except FileNotFoundError:
             return []
-print(get_cats_info   ("Коти.txt"))
+print(get_cats_info("Коти.txt"))
